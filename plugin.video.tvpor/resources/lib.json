@@ -1,0 +1,297 @@
+{
+  "RTP1": {
+    "epg": "RTP1",
+    "streams": [
+      {
+        "url": "http://www.rtp.pt/play/direto/rtp1",
+        "name": "RTP Play",
+        "resolve": true
+      },
+	  {
+        "url": "http://noscdn1.connectedviews.com:1935/live/rtp1.stream/livestream.m3u8",
+        "name": "Alternativa #1",
+        "resolve": false
+      },
+      {
+        "url": "http://88.157.194.246/live/ramdisk/zrtp1/HLS/zrtp1.m3u8",
+        "name": "Alternativa #2",
+        "resolve": false
+      }
+    ],
+    "name": "RTP 1",
+    "thumb": "thumb_rtp1.png"
+  },
+  "RTP2": {
+    "epg": "RTP2",
+    "streams": [
+      {
+        "url": "http://www.rtp.pt/play/direto/rtp2",
+        "name": "RTP Play",
+        "resolve": true
+      },
+	  {
+        "url": "http://noscdn1.connectedviews.com:1935/live/rtp2.stream/livestream.m3u8",
+        "name": "Alternativa #1",
+        "resolve": false
+      },
+      {
+        "url": "http://88.157.194.246/live/ramdisk/zrtp2/HLS/zrtp2.m3u8",
+        "name": "Alternativa #2",
+        "resolve": false
+      }
+    ],
+    "name": "RTP 2",
+    "thumb": "thumb_rtp2.png"
+  },
+  "SIC": {
+    "epg": "SIC",
+    "streams": [
+      {
+        "url": "http://213.13.26.11:1935/live/sic/playlist.m3u8",
+        "name": "SIC Oficial",
+        "resolve": false
+      },
+	  {
+        "url": "http://noscdn1.connectedviews.com:1935/live/sic.stream/livestream.m3u8",
+        "name": "Alternativa #1",
+        "resolve": false
+      },
+      {
+        "url": "http://88.157.194.246/live/ramdisk/zsic/HLS/zsic.m3u8",
+        "name": "Alternativa #2",
+        "resolve": false
+      }
+    ],
+    "name": "SIC",
+    "thumb": "thumb_sic.png"
+  },
+  "TVI": {
+    "epg": "TVI",
+    "streams": [
+      {
+        "url": "http://tviplayer.iol.pt/direto/TVI",
+        "name": "TVI Oficial",
+        "resolve": true
+      },
+	  {
+        "url": "http://noscdn1.connectedviews.com:1935/live/tvi.stream/livestream.m3u8",
+        "name": "Alternativa #1",
+        "resolve": false
+      },
+      {
+        "url": "http://88.157.194.246/live/ramdisk/ztvi/HLS/ztvi.m3u8",
+        "name": "Alternativa #2",
+        "resolve": false
+      }
+    ],
+    "name": "TVI",
+    "thumb": "thumb_tvi.png"
+  },
+  "RTPINF": {
+    "epg": "RTPIN",
+    "streams": [
+      {
+        "url": "http://www.rtp.pt/play/direto/rtpinformacao",
+        "name": "RTP Play",
+        "resolve": true
+      }
+    ],
+    "name": "RTP Informação",
+    "thumb": "thumb_rtpinf.png"
+  },
+  "SICN": {
+    "epg": "SICN",
+    "streams": [
+      {
+        "url": "http://videos.sapo.pt/syqqba8JjeKyS8WFMA1H",
+        "name": "SIC Notícias Oficial",
+        "resolve": false
+      }
+    ],
+    "name": "SIC Notícias",
+    "thumb": "thumb_sicn.png"
+  },
+  "TVI24": {
+    "epg": "TVI24",
+    "streams": [
+      {
+        "url": "http://tviplayer.iol.pt/direto/TVI24",
+        "name": "TVI Oficial",
+        "resolve": true
+      }
+    ],
+    "name": "TVI24",
+    "thumb": "thumb_tvi24.png"
+  },
+  "EURON": {
+    "epg": "EURN",
+    "streams": [
+      {
+        "url": "http://pt.euronews.com/noticias/en-direto/",
+        "name": "Euronews PT Oficial (M3U8)",
+        "resolve": true
+      },
+	  {
+        "url": "http://fr-par-iphone-1.cdn.hexaglobe.net/streaming/euronews_ewns/iphone_pt.m3u8",
+        "name": "Euronews PT Oficial (M3U8 Alternativa)",
+        "resolve": false
+      },
+      {
+        "url": "rtsp://ewns-hls-b-stream.hexaglobe.net/rtpeuronewslive/pt_vidan750_rtp.sdp",
+        "name": "Euronews PT Oficial (RTSP)",
+        "resolve": false
+      }
+    ],
+    "name": "Euronews",
+    "thumb": "thumb_euron.png"
+  },
+  "RTPACO": {
+    "epg": "RTPAC",
+    "streams": [
+      {
+        "url": "http://www.rtp.pt/play/direto/rtpacores",
+        "name": "RTP Play",
+        "resolve": true
+      }
+    ],
+    "name": "RTP Açores",
+    "thumb": "thumb_rtpaco.png"
+  },
+  "RTPAFR": {
+    "epg": "RTPA",
+    "streams": [
+      {
+        "url": "http://www.rtp.pt/play/direto/rtpafrica",
+        "name": "RTP Play",
+        "resolve": true
+      }
+    ],
+    "name": "RTP Africa",
+    "thumb": "thumb_rtpafr.png"
+  },
+  "RTPINT": {
+    "epg": null,
+    "streams": [
+      {
+        "url": "http://www.rtp.pt/play/direto/rtpinternacional",
+        "name": "RTP Play",
+        "resolve": true
+      }
+    ],
+    "name": "RTP Internacional",
+    "thumb": "thumb_rtpint.png"
+  },
+  "RTPMAD": {
+    "epg": "RTPMD",
+    "streams": [
+      {
+        "url": "http://www.rtp.pt/play/direto/rtpmadeira",
+        "name": "RTP Play",
+        "resolve": true
+      }
+    ],
+    "name": "RTP Madeira",
+    "thumb": "thumb_rtpmad.png"
+  },
+  "RTPMEM": {
+    "epg": "RTPM",
+    "streams": [
+      {
+        "url": "http://www.rtp.pt/play/direto/rtpmemoria",
+        "name": "RTP Play",
+        "resolve": true
+      }
+    ],
+    "name": "RTP Memória",
+    "thumb": "thumb_rtpmem.png"
+  },
+  "ARTV": {
+    "epg": "ARTV",
+    "streams": [
+      {
+        "url": "rtsp://www.canal.parlamento.pt/Live",
+        "name": "ARTV Oficial",
+        "resolve": false
+      }
+    ],
+    "name": "ARTV",
+    "thumb": "thumb_artv.png"
+  },
+  "ETV": {
+    "epg": "ETVHD",
+    "streams": [
+      {
+        "url": "http://videos.sapo.pt/lcmPmevoiFzq5Z9BvgtT",
+        "name": "ETV Oficial",
+        "resolve": false
+      }
+    ],
+    "name": "Económico TV",
+    "thumb": "thumb_etv.png"
+  },
+  "TPA": {
+    "epg": "TPA",
+    "streams": [
+      {
+        "url": "http://myafricanmega3.tulix.tv:1935/map-tpaint/map-tpaint.stream/playlist.m3u8",
+        "name": "TPAi Live (M3U8)",
+        "resolve": false
+      },
+	  {
+        "url": "http://www.tpai.tv/tpai_rtmp_dynamic_streaming.xml",
+        "name": "TPAi Live (RTMP)",
+        "resolve": true
+      }
+    ],
+    "name": "TPA Internacional",
+    "thumb": "thumb_tpa.png"
+  },
+  "FASH": {
+    "epg": "FASH",
+    "streams": [
+      {
+        "url": "http://www.dailymotion.com/embed/video/x2zsarn",
+        "name": "Fashion TV Oficial",
+        "resolve": true
+      }
+    ],
+    "name": "Fashion TV",
+    "thumb": "thumb_fash.png"
+  },
+  "TRACE": {
+    "epg": "TRACE",
+    "streams": [
+      {
+        "url": "http://www.dailymotion.com/embed/video/x1ahn4f",
+        "name": "TRACE Urban Oficial",
+        "resolve": true
+      }
+    ],
+    "name": "TRACE Urban",
+    "thumb": "thumb_trace.png"
+  },
+  "DJING": {
+    "epg": null,
+    "streams": [
+      {
+        "url": "http://www.djing.com/tv/noaudio_PT.m3u8",
+        "name": "DJing.com Oficial",
+        "resolve": false
+      }
+    ],
+    "name": "DJing TV",
+    "thumb": "thumb_djing.png"
+  },
+  "VIRGIN": {
+    "epg": null,
+    "streams": [
+      {
+        "url": "http://wow01.105.net/live/virgin1/playlist.m3u8",
+        "name": "Virgin Radio 105FM Oficial",
+        "resolve": false
+      }
+    ],
+    "name": "Virgin Radio TV",
+    "thumb": "thumb_virgin.png"
+  }
+}

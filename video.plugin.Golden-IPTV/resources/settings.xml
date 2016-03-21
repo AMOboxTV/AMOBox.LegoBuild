@@ -1,0 +1,9 @@
+﻿<settings>
+  <category label="Streamlivetv-Addon">
+    <setting id="Updatecommonresolvers" label="Update Commonresolver from Genesis" type="bool" default="true" visible="false"/>
+	<setting type="action" label="Streamlivetv new addon from Kodi 2016" option="close" action="RunPlugin(plugin://plugin.video.streamlivetv/?mode=7)" />
+        <setting type="action" label="[COLOR blue][B]Streamlivetv Kodi 2016[/B][/COLOR]" option="close" action="RunPlugin(plugin://plugin.video.streamlivetv/?mode=7)" />
+        <setting id="ask_playlist_items" type="bool" label="Activar Elegir Fuente de Video" default="true" visible="false"/>
+        <setting id="add_playlist" type="bool" label="Activar Multilink" default="true" visible="false"/>
+        </category>
+</settings>

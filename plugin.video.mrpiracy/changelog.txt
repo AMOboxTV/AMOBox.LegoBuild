@@ -1,0 +1,64 @@
+v0.1.7 (11/03/2016)
+- OpenLoad fix
+- Animes adicionados
+- Favoritos/Agendados fix (Parcialmente)
+
+v0.1.6
+- Alteração de repositório
+
+v0.1.5 (18/02/2016)
+- OpenLoad fix
+- Vidzi fix
+
+v0.1.4 (09/02/2016)
+- Correção de numero de temporadas
+
+v0.1.3 (09/02/2016)
+- Correção de Login
+
+v0.1.2 (02/02/2016)
+- Alteração de número de temporadas, novamente aparecem todas as temporadas.
+- Correção de legenda com o servidor OpenLoad, Vidzi
+- Problema do OpenLoad resolvido, não necessita de acesso ao API e sem captcha!
+
+v0.1.1 (01/02/2016)
+- Alteração de número de temporadas, novamente aparecem todas as temporadas.
+- Correção de legenda com o servidor OpenLoad
+
+v0.1.0 (24/01/2016)
+- Alterações nas séries, lista as temproadas e episódios!
+- Novos links internos
+- Imagem de pesquisa
+
+v0.0.9 (03/01/2016)
+- Alterações nas séries, lista as temproadas e episódios!
+
+v0.0.8 (05/12/2015)
+- Alterações do site corrigidas no addon!
+
+v0.0.7 (30/11/2015)
+- Alterações do site corrigidas no addon!
+
+v0.0.6 (29/11/2015)
+- Alterações do site corrigidas no addon!
+
+v0.0.5 (17/11/2015)
+- Novas alterações no site corrigidas!
+
+v0.0.4 (05/11/2015)
+- Erros de encoding no nome dos filmes/series! - #Resolvido com try/catch, provavelmente nao aparece o filme/serie
+
+v0.0.3 (01/11/2015)
+- Erros de encoding resolvidos!! - #UPDATE FORÇADO!
+
+v0.0.2
+- Paginação resolvida (devo de andar a dormir....)
+
+v0.0.1
+- Sistema Login
+- Ver filmes
+- Ver series
+- Pesquisa
+- Filmes/Series por categorias
+- Filmes/Series por ano
+
