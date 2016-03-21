@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.amobox.lego" name="AMObox Lego Build" version="0.0.5" provider-name="AMObox">
+<addon id="repository.amobox.lego" name=" [COLOR blue][B]AMO[/COLOR][COLOR green]box[/B][/COLOR][COLOR yellow] Lego Build[/COLOR]" version="0.0.6" provider-name="AMObox">
 	<extension point="xbmc.addon.repository" name="Demonstration Add-on Repository">
 		<info compressed="false">http://raw.github.com/AMOboxTV/AMOBox.LegoBuild/master/addons.xml</info>
 		<checksum>http://raw.github.com/AMOboxTV/AMOBox.LegoBuild/master/addons.xml.md5</checksum>
