@@ -225,7 +225,7 @@
 
 <addon id="plugin.video.ManiacTV"
        name="[COLOR yellow][B]Maniac[/COLOR][COLOR red]TV[/B][/COLOR]"
-       version="0.0.4"
+       version="0.0.4a"
        provider-name="Coelhon">
   <requires>
     <import addon="xbmc.python" />
@@ -242,10 +242,6 @@
     <import addon="script.module.simplejson" />
     <import addon="script.common.plugin.cache" />
     <import addon="script.module.metahandler" />
-	<import addon="plugin.video.specto" />
-    <import addon="plugin.video.SportsDevil" />
-    <import addon="plugin.video.p2psport" />
-
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
@@ -454,7 +450,7 @@ Maniac Team / Pancas TV
 
 <addon
   id="plugin.video.SportsDevil"
-  version="2"
+  version="2.2"
   name="SportsDevil"
   provider-name="SportsDevil">
   <requires>
