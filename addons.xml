@@ -578,6 +578,20 @@ O addon apenas inclui streams oficiais.</description>
   </extension>
 </addon>
 
+<addon id="plugin.video.uktvnow" name="UKTV Now" version="2.0.0" provider-name="MetalKettle">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en"></description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
     <addon id="plugin.video.velocity" version="1.0.6" name="Velocity" provider-name="Blazetamer">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
